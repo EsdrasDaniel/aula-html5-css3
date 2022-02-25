@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino site</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <main>
+        <h1>Treino de Site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure impedit beatae sunt earum suscipit, iusto eligendi dolore nam delectus maxime unde rem voluptates autem accusantium! Ipsa tempore quae repellat rerum?</p>  
+        <h1> É um teste de site</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae unde explicabo? Veritatis minima adipisci fugit soluta saepe placeat, magnam consequatur cumque quam odio amet non iure. Illo, architecto laudantium.</p>
+        <h2>Sobre o Site</h2>
+
+        <h3>Qual é seu nome?</h3> <input type="Text" name="nome" id="nome"   >
+        <input type="button" value="Verificar" onclick="clicar">
+        <div id= "res"></div>
+        <script>
+            
+            function clicar(){
+                var n = window.document.getElementById('nome')
+                var r= window.document.getElementById('res')
+            
+                var nl = (n.value)
+
+                r.innerHTML=`Olá ${n} Bem vindo a esse site`
+
+            }
+            
+            
+              
+         
+           </script>   
+
+    </main>
+
+</body>
+</html>

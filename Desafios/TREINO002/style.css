@@ -1,0 +1,39 @@
+@charset "utf=8"
+*{
+   
+}
+body {
+ /* nesta linha temos um efeito de gradiente no fundo da tela
+ a parte to right escolhe para qual lado vai começar o efeito degrader*/
+      background-image: linear-gradient(to right , rgba(230, 174, 128, 0.74) 1%, rgb(221, 167, 96));
+}
+main{
+    
+    /* Neste paragrafo de estilização utilizamos  text aling para organizar as letra font size para aumentar o tamanho da letra, box shadown para criar uma caixa em volta do conteúdo */
+    text-align: justify;
+    font-size: 15px;
+    background-image: linear-gradient(to bottom , rgba(248, 248, 248, 0.459) 1%, rgba(243, 243, 243, 0.562));
+    /*Border radius define a borda arredondada da caixa criada para o conteúdo*/
+    border-radius: 10px;
+    /* margin alinha sozinho onde a caixa fica organizada, ou até mesmo o texto, ou seja ele organiza sozinho todo texto mesmo se você abrir a tela*/
+    margin:auto ;
+    /*este comando width define a largura do texto.*/
+    width: 600px;
+    /* Define o espaço entre o texto e a caixa de conteúdo.*/
+    padding: 45px;
+   box-shadow: 5px 5px 15px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 100, 28);
+    text-shadow: 5px 5px 15px rgba(136, 57, 28, 0.705);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(105, 85, 57);
+}
+p{
+   font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 50, 32);
+}
